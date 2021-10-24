@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="459ed293-c540-4634-ab11-90482f01e645" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mobile.css" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1xNY0KrWsvEXZlwE6mSysRGtiHx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Twig" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\web\domains\avanstom.test\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\web\domains\dubl.test" />
+      <recent name="C:\web\domains\dubl.test\img" />
+      <recent name="C:\web\domains\dubl.test\vendor" />
+      <recent name="C:\web\domains\avanstom.test\css" />
+      <recent name="C:\web\domains\avanstom.test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="459ed293-c540-4634-ab11-90482f01e645" name="Default Changelist" comment="" />
+      <created>1630196788963</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630196788963</updated>
+      <workItem from="1630196790120" duration="7232000" />
+      <workItem from="1630293468335" duration="14413000" />
+      <workItem from="1630487264839" duration="2872000" />
+      <workItem from="1630554861186" duration="5000" />
+      <workItem from="1631102436160" duration="14098000" />
+      <workItem from="1631138015315" duration="17761000" />
+      <workItem from="1631232228829" duration="599000" />
+      <workItem from="1631923452037" duration="4851000" />
+      <workItem from="1632009126985" duration="15000" />
+      <workItem from="1632714181520" duration="3193000" />
+      <workItem from="1632724830142" duration="259000" />
+      <workItem from="1632728827214" duration="2743000" />
+      <workItem from="1632745047256" duration="3811000" />
+      <workItem from="1632816124546" duration="6000" />
+      <workItem from="1634904844169" duration="434000" />
+      <workItem from="1634905378368" duration="10458000" />
+      <workItem from="1634975353926" duration="8259000" />
+      <workItem from="1634995594798" duration="18509000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
