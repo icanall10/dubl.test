@@ -87,10 +87,17 @@
                 $(this)
                     .addClass('owl-carousel')
                     .owlCarousel({
-                        items: 1,
                         nav: false,
                         dots: true,
-                        margin: 16
+                        margin: 16,
+                        responsive: {
+                            0: {
+                                items: 1,
+                            },
+                            768: {
+                                items: 3
+                            }
+                        }
                     })
             });
 
@@ -102,18 +109,24 @@
                 $(this)
                     .addClass('owl-carousel')
                     .owlCarousel({
-                        items: 1,
                         nav: false,
                         dots: true,
-                        margin: 16,
-                        autoHeight: true
+                        autoHeight: true,
+                        responsive: {
+                            0: {
+                                items: 1,
+                            },
+                            768: {
+                                items: 3
+                            }
+                        }
                     })
             });
 
 
         $('[data-mobile-menu-link]')
             .once()
-            .click(function(e){
+            .click(function (e) {
                 e.preventDefault();
 
                 let body = $('body');

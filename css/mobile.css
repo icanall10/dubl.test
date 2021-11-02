@@ -118,6 +118,9 @@
     }
     .advantages-block .items {
         display: block;
+
+        margin-left: 0;
+        margin-right: 0;
     }
     .advantages-block .items .line {
         height: 1px;
@@ -176,14 +179,19 @@
         margin-right: -16px;
     }
 
-    .footer-block {
-        display: none;
-    }
-
     .products-list {
         grid-template-columns: minmax(0, 1fr);
+        gap: 0;
         margin-left: -16px;
         margin-right: -16px;
+    }
+    .products-list .item {
+        box-shadow: none;
+        border-right: 1px solid #eee;
+        box-sizing: border-box;
+        height: 100%;
+        padding-bottom: 0;
+        padding-top: 0;
     }
     .products-list .item .images {
         height: auto !important;
@@ -191,6 +199,13 @@
     .products-list .item .images img {
         width: 100%;
         height: auto;
+    }
+    .products-list .owl-stage {
+        display: flex;
+    }
+    .products-list .owl-item {
+        display: flex;
+        flex-direction: column;
     }
 
     .info-block .item {
@@ -216,6 +231,9 @@
     .advantages-block .box img {
         width: 100%;
         height: auto;
+    }
+    .advantages-block .box:hover {
+        box-shadow: none;
     }
 
     .before-after-block .item .name {
@@ -272,7 +290,7 @@
     .mobile-menu .ui.dropdown > .dropdown.icon {
         margin-left: 5px;
     }
-    .ui.dropdown .menu {
+    .mobile-menu .ui.dropdown .menu {
         max-height: 300px;
         overflow: auto;
         min-width: 200px;
@@ -281,7 +299,7 @@
 
         box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.8);
     }
-    .ui.dropdown .menu a {
+    .mobile-menu .ui.dropdown .menu a {
         color: #ffffff !important;
     }
 
@@ -328,6 +346,9 @@
     .product-page .product-detail {
         padding: 16px;
     }
+    .product-page .product-img img {
+        filter: blur(0);
+    }
 
     .mfp-wrap .mfp-content {
         padding: 16px;
@@ -341,5 +362,28 @@
         display: block;
     }
 
+    .footer-block .main-menu {
+        margin: 0 -16px;
+    }
+    .footer-block .main-menu .inner > ul {
+        display: block;
+    }
+    .footer-block .main-menu .inner > ul > li {
+        border-bottom: 1px solid #ddd;
+    }
+    .footer-block .main-menu .inner > ul > li:last-child {
+        border: none;
+    }
+    .footer-block .main-menu .inner > ul > li > a {
+        min-height: 40px;
+        padding-left: 16px;
+    }
+    .footer-block .main-menu li.dropdown > .menu {
+        background: #fff;
+        left: 16px !important;
+    }
+    .mobile-menu .ui.dropdown .menu a {
+        color: var(--color-main) !important;
+    }
 
 }
