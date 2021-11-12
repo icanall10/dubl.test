@@ -185,6 +185,9 @@
         margin-left: -16px;
         margin-right: -16px;
     }
+    .products-list.no-carousel {
+        gap: 30px;
+    }
     .products-list .item {
         box-shadow: none;
         border-right: 1px solid #eee;
