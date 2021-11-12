@@ -103,6 +103,7 @@
 
 
         $('.products-list')
+            .not('.no-carousel')
             .once(function () {
                 if (!isMobile()) return;
 
