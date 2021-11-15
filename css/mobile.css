@@ -366,7 +366,10 @@
     }
 
     .footer-block .main-menu {
-        margin: 0 -16px;
+        margin: 0;
+    }
+    .footer-block .main-menu .container {
+        margin: 0;
     }
     .footer-block .main-menu .inner > ul {
         display: block;
@@ -385,7 +388,7 @@
         background: #fff;
         left: 16px !important;
     }
-    .mobile-menu .ui.dropdown .menu a {
+    .footer-block .mobile-menu .ui.dropdown .menu a {
         color: var(--color-main) !important;
     }
 
