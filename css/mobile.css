@@ -185,9 +185,22 @@
         margin-left: -16px;
         margin-right: -16px;
     }
+
     .products-list.no-carousel {
-        gap: 35px;
+        gap: 0;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     }
+    .products-list.no-carousel .item {
+        border-bottom: 1px solid #eee;
+        padding: 16px;
+    }
+
+    @media screen and (max-width: 600px) {
+        .products-list.no-carousel {
+            grid-template-columns: minmax(0, 1fr);
+        }
+    }
+
     .products-list .item {
         box-shadow: none;
         border-right: 1px solid #eee;
