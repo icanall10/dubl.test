@@ -53,8 +53,9 @@
                 let $this = $(this);
                 let code = $this.attr('data-modal-link');
                 let modal = $('[data-modal="' + code + '"]');
+                let source = $this.attr('data-source') || '';
 
-                console.log(modal.length);
+                modal.find('input[data-source]').val(source);
 
                 if (modal.length === 0) {
                     return null;
